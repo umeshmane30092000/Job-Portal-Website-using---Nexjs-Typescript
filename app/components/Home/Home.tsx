@@ -1,9 +1,12 @@
 import React from 'react'
+import Hero from './Hero'
+import JobCategory from './JobCategory'
 
 function Home() {
   return (
     <div>
-      Home componet redered on the page
+    <Hero/>
+    <JobCategory/>
     </div>
   )
 }
